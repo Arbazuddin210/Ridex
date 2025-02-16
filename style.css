@@ -6,7 +6,7 @@
 }
 
 body{
-    background: hsl(216, 38%, 95%);
+    background: rgb(237, 241, 247);
     height: 100vh;
     width: 100vw;
 }
@@ -55,7 +55,7 @@ header{
 
 
 main{
-    height: 85vh;
+    height: auto;
     position: relative;
     margin-top:2rem;
 }
@@ -118,4 +118,33 @@ section .hero-banner{
     border-radius: 3rem;
     background-image: url("images/hero-banner.jpg");
     background-size: cover;
+}
+
+/* Explore Cars */
+
+.feature{
+    display: flex;
+    justify-content: center;
+
+}
+.cars-container{
+    width: 80%;
+}
+.cars-container .title{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #575252;
+    margin-bottom: 2rem;
+}
+.cars-container .list{
+    margin: 2rem 0rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30rem 30rem 30rem;
+    grid-gap: 2rem;
+}
+.list li{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2rem;
+    list-style-type: none;
 }

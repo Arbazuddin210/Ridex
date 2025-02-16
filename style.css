@@ -12,14 +12,10 @@ body{
 }
 
 header{
-    height: 70px;
+    height: 8vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: fixed;
-    left:0;
-    top:0;
-    right:0
 }
 .container h2{
     font-weight: 500;
@@ -54,4 +50,63 @@ header{
     border-radius: 5px;
     background-color: rgb(44, 44, 187);
     color: white; 
+}
+
+
+main{
+    height: 92vh;
+    margin-top: 2rem;
+    position: relative;
+}
+section{
+    display: flex;
+    align-items: center;
+    padding: 0rem 8rem;
+    gap:5rem;
+}
+section .hero-content{
+    height:50vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.hero-title{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.hero-form{
+    height: 5rem;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    position:absolute;
+    top:430px;
+    width: 700px;
+    padding-left: 2rem;
+}
+.hero-form input{
+    width: 80%;
+    border:none;
+    border-radius: 5rem 0rem 0rem 5rem;
+    padding: 2rem;
+}
+.hero-form button{
+    width:15%;
+    border:none;
+    border-radius: 2rem;
+    height: 40px;
+    background-color: rgb(0, 0, 218);
+    color: white;
+
+}
+
+section .hero-banner{
+    height:80vh;
+    width: 55vw;
+    border-radius: 3rem;
+    background-image: url("images/hero-banner.jpg");
+    background-size: cover;
 }

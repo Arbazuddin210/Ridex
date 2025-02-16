@@ -54,26 +54,30 @@ header{
 
 
 main{
-    height: 92vh;
-    margin-top: 2rem;
+    height: 85vh;
+    /* margin-top: rem; */
     position: relative;
 }
 section{
     display: flex;
     align-items: center;
     padding: 0rem 8rem;
-    gap:5rem;
 }
 section .hero-content{
     height:50vh;
     width: 40vw;
     display: flex;
+}
+.hero-content .content{
+    display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap:1rem;
 }
 .hero-title{
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 5rem;
+    color:#3f3d3d;
 }
 
 .hero-form{
@@ -89,9 +93,12 @@ section .hero-content{
 }
 .hero-form input{
     width: 80%;
+    height:100%;
     border:none;
     border-radius: 5rem 0rem 0rem 5rem;
     padding: 2rem;
+    font-size: 18px;
+    outline: none;
 }
 .hero-form button{
     width:15%;

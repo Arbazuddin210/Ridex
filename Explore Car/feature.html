@@ -1,126 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Features</title>
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="../style.css">
-</head>
-<body>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <h2>Ridex</h2>
-        </div>
-        <nav class="navbar">
+      <div class="container">
+        <h2>Ridex</h2>
+      </div>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
 
-            <ul class="navbar-list">
-              <li>
-                <a href="../index.html" >Home</a>
-              </li>
-    
-              <li>
-                <a href="#" >Explore cars</a>
-              </li>
-    
-              <li>
-                <a href="../About us/about.html" >About us</a>
-              </li>
-    
-              <li>
-                <a href="../Blog/blog.html" >Blog</a>
-              </li>
-            </ul>
+          <li>
+            <a href="#">Explore cars</a>
+          </li>
 
-          </nav>
+          <li>
+            <a href="../About us/about.html">About us</a>
+          </li>
 
-          <div class="log-btn">
-            <a href="#">Login</a>
-            <a href="#">Signup</a>      
-          </div>
+          <li>
+            <a href="../Blog/blog.html">Blog</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="log-btn">
+        <a href="#">Login</a>
+        <a href="#">Signup</a>
+      </div>
     </header>
+
     <main class="feature">
       <div class="cars-container">
+        <h2 class="title">Cars</h2>
+        <ul class="list">
+          <li>
+            <div class="car-card">
+              <img src="../images/car-1.jpg" alt="Toyota RAV4 2021" />
+              <div class="card-content">
+                <h3 class="card-title">Toyota RAV4</h3>
+                <h3>2021</h3>
 
-          <h2 class="title">Cars</h2>
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="people-outline"></ion-icon>
 
-          <ul class="list">
-            <li>
-              <!-- <div class="car-card">
+                    <span class="card-item-text">4 People</span>
+                  </li>
 
-                <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
-                    class="w-100">
-                </figure>
+                  <li class="card-list-item">
+                    <ion-icon name="flash-outline"></ion-icon>
 
-                <div class="card-content">
+                    <span class="card-item-text">Hybrid</span>
+                  </li>
 
-                  <div class="card-title-wrapper">
-                    <h3 class="h3 card-title">
-                      <a href="#">Toyota RAV4</a>
-                    </h3>
+                  <li class="card-list-item">
+                    <ion-icon name="speedometer-outline"></ion-icon>
 
-                    <data class="year" value="2021">2021</data>
-                  </div>
+                    <span class="card-item-text">6.1km / 1-litre</span>
+                  </li>
 
-                  <ul class="card-list">
+                  <li class="card-list-item">
+                    <ion-icon name="hardware-chip-outline"></ion-icon>
 
-                    <li class="card-list-item">
-                      <ion-icon name="people-outline"></ion-icon>
+                    <span class="card-item-text">Automatic</span>
+                  </li>
+                </ul>
 
-                      <span class="card-item-text">4 People</span>
-                    </li>
+                <div class="card-price-wrapper">
+                  <p class="card-price"><strong>$440</strong> / month</p>
 
-                    <li class="card-list-item">
-                      <ion-icon name="flash-outline"></ion-icon>
+                  <button
+                    class="btn fav-btn"
+                    aria-label="Add to favourite list"
+                  >
+                    <ion-icon name="heart-outline"></ion-icon>
+                  </button>
 
-                      <span class="card-item-text">Hybrid</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="speedometer-outline"></ion-icon>
-
-                      <span class="card-item-text">6.1km / 1-litre</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="hardware-chip-outline"></ion-icon>
-
-                      <span class="card-item-text">Automatic</span>
-                    </li>
-
-                  </ul>
-
-                  <div class="card-price-wrapper">
-
-                    <p class="card-price">
-                      <strong>$440</strong> / month
-                    </p>
-
-                    <button class="btn fav-btn" aria-label="Add to favourite list">
-                      <ion-icon name="heart-outline"></ion-icon>
-                    </button>
-
-                    <button class="btn">Rent now</button>
-
-                  </div>
-
+                  <button class="btn">Rent now</button>
                 </div>
-
-              </div> -->
-            </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-
-          </ul>
-
+              </div>
+            </div>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
     </main>
-</body>
+  </body>
 </html>
